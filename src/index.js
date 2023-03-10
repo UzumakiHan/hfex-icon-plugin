@@ -59,7 +59,6 @@ function getContextVueVersion() {
 
 const isInstall = getPackageJsonInfo('hfex-icon');
 const vueVersion = getContextVueVersion();
-console.log(vueVersion)
 const vueCompiler = semver.major(vueVersion) === 2 ? 'vue2' : 'vue3';
 if (!isInstall) {
     throw new Error('请安装hfex-icon.');

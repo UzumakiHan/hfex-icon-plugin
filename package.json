@@ -1,6 +1,6 @@
 {
   "name": "hfex-icon-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "hfex-icon插件配置",
   "main": "./src/index.js",
   "exports": {
@@ -15,14 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "semver": "^7.3.8",
-    "unplugin-icons": "^0.15.3",
-    "webpack-chain": "^6.5.1"
-  },
   "dependencies": {
     "@vue/compiler-sfc": "^3.2.47",
+    "semver": "^7.3.8",
+    "unplugin-icons": "^0.15.3",
     "vue-template-compiler": "2.6.12",
-    "vue-template-es2015-compiler": "^1.9.1"
+    "vue-template-es2015-compiler": "^1.9.1",
+    "webpack-chain": "^6.5.1"
   }
 }
