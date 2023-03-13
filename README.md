@@ -5,7 +5,7 @@ npm i hfex-icon-plugin
 ```
 ## 使用
 ```
-//vue.config.js/ts中
+//vue.config.js中
 const HfexIconPlugin = require('hfex-icon-plugin')
 module.exports = {
     configureWebpack:{
