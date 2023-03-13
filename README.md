@@ -1,7 +1,7 @@
 # hfex-icon 的plugin配置
 ## Install
 ```
-npm i hfex-icon-plugin
+npm i hfex-icon-plugin -D
 ```
 ## 使用
 ```
