@@ -38,22 +38,8 @@ module.exports = {
 {
   "devDependencies": {
 -   "hfex-icon-plugin": "^1.0.2",
-+   "hfex-icon-plugin": "^1.1.0",
++   "hfex-icon-plugin": "^1.1.1",
   }
-}
-```
-vue中使用
-
-`vue.config.js`
-
-```js
-const HfexIconPlugin = require('hfex-icon-plugin')
-module.exports = {
-    configureWebpack:{
-        plugins:[
-            HfexIconPlugin()
-        ]
-    }
 }
 ```
 
@@ -68,7 +54,7 @@ For example in Vue:
 
 ```js
 // vue.config.js
-const HfexIconPlugin = require('hfex-icon-plugin')
+const HfexIconPlugin = require('hfex-icon-plugin/webpack')
 module.exports = {
     configureWebpack:{
         plugins:[

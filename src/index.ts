@@ -10,7 +10,6 @@ const PLUGIN_NAME = 'hfex-icon-plugin';
 
 function getContextVueVersion() {
     const vuePackagePath = path.join(process.cwd(), './node_modules/vue/package.json');
-
     let pkg;
     try {
         pkg = require(vuePackagePath);
