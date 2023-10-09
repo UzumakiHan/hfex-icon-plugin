@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/UzumakiHan/hfex-icon-plugin/compare/v1.1.1...v1.1.2) (2023-10-09)
+
+
+### 👷‍ Build System | 构建
+
+* Update build dist ([1426201](https://github.com/UzumakiHan/hfex-icon-plugin/commit/1426201b4e39bb84122a540ff9ae01e5298fb3aa))
+
 ## [1.1.1](https://github.com/UzumakiHan/hfex-icon-plugin/compare/v1.1.0...v1.1.1) (2023-10-09)
 
 
