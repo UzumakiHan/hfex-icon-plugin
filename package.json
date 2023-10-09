@@ -1,26 +1,67 @@
 {
   "name": "hfex-icon-plugin",
   "version": "1.0.2",
-  "description": "hfex-icon插件配置",
-  "main": "./src/index.js",
-  "exports": {
-    ".": "./src/index.js"
-  },
+  "description": "hfex-icon-plugin配置",
+  "main": "dist/vite/index.cjs",
+  "module": "dist/vite/index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && npm run build:webpack && npm run build:vite",
+    "build:webpack": "rollup -c rollup.webpack.config.mjs --bundleConfigAsCjs",
+    "build:vite": "rollup -c rollup.vite.config.mjs --bundleConfigAsCjs"
   },
   "files": [
-    "src"
+    "src",
+    "dist",
+    "types",
+    "package.json"
   ],
+  "exports": {
+    ".": {
+      "require": "./dist/vite/index.cjs",
+      "import": "./dist/vite/index.mjs"
+    },
+    "./webpack": {
+      "require": "./dist/webpack/index.cjs",
+      "import": "./dist/webpack/index.mjs"
+    },
+    "./vite": {
+      "require": "./dist/vite/index.cjs",
+      "import": "./dist/vite.index.mjs",
+      "types": "./types/vite.d.ts"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "-": "^0.0.1",
     "@vue/compiler-sfc": "^3.2.47",
+    "D": "^1.0.0",
     "semver": "^7.3.8",
-    "unplugin-icons": "^0.15.3",
     "vue-template-compiler": "2.6.12",
     "vue-template-es2015-compiler": "^1.9.1",
     "webpack-chain": "^6.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.22.20",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/node": "^20.7.1",
+    "@types/semver": "^7.5.3",
+    "core-js": "^3.33.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^3.23.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "unplugin": "^1.5.0",
+    "unplugin-icons": "^0.17.0",
+    "vite": "^4.4.11",
+    "webpack": "^5.88.2"
   }
 }
