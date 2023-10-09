@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/UzumakiHan/hfex-icon-plugin/compare/v1.0.4...v1.1.0) (2023-10-09)
+
+
+### ✨ Features | 新功能
+
+* 优化hfex-icon-plugin ([dfd549a](https://github.com/UzumakiHan/hfex-icon-plugin/commit/dfd549a9708514fee29480cebe957ebca74b1f3a))
+
+
+### 👷‍ Build System | 构建
+
+* Update build dist ([2cd13e7](https://github.com/UzumakiHan/hfex-icon-plugin/commit/2cd13e7c5a1b70947f09250c8cddae0f8d190de4))
+* Update build dist ([c264f40](https://github.com/UzumakiHan/hfex-icon-plugin/commit/c264f40a308e08909a23711cd7441bd454b00266))
+
 ## [1.0.4](https://github.com/UzumakiHan/hfex-icon-plugin/compare/v1.0.3...v1.0.4) (2023-10-09)
 
 
