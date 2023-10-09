@@ -29,8 +29,8 @@ module.exports = {
 ```
 
 
-## v1.0.3版本
-在v1.0.3版本中，重新使用了unplugin对插件进行了封装，支持了在vite项目中使用，同时优化了webpack版本
+## v1.1.0版本
+在v1.1.0版本中，重新使用了unplugin对插件进行了封装，支持了在vite项目中使用，同时优化了webpack版本
 
 `package.json`
 
@@ -38,7 +38,7 @@ module.exports = {
 {
   "devDependencies": {
 -   "hfex-icon-plugin": "^1.0.2",
-+   "hfex-icon-plugin": "^1.0.3",
++   "hfex-icon-plugin": "^1.1.0",
   }
 }
 ```

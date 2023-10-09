@@ -6,8 +6,6 @@ import { FileSystemIconLoader } from 'unplugin-icons/loaders'
 import {Compiler} from 'webpack'
 import semver from 'semver';
 import { createUnplugin } from 'unplugin';
-
-
 const PLUGIN_NAME = 'hfex-icon-plugin';
 
 function getContextVueVersion() {
