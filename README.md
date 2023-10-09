@@ -29,7 +29,7 @@ module.exports = {
 ```
 
 
-## v1.1.0版本
+## v1.1.1版本
 在v1.1.0版本中，重新使用了unplugin对插件进行了封装，支持了在vite项目中使用，同时优化了webpack版本
 
 `package.json`
