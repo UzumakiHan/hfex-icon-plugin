@@ -1,6 +1,6 @@
 {
   "name": "hfex-icon-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "hfex-icon-plugin配置",
   "main": "dist/vite/index.cjs",
   "module": "dist/vite/index.mjs",
